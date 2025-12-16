@@ -1,0 +1,9 @@
+var/cache/
+var/logs/
+*.log
+.idea/
+.vscode/
+*.swp
+.DS_Store
+vendor/
+node_modules/
