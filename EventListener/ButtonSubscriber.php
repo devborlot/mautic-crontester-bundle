@@ -79,23 +79,24 @@ class ButtonSubscriber implements EventSubscriberInterface
             }
         }
 
+        // M6 uses Remix Icons (ri-) instead of FontAwesome (fa-)
         $buttons = [
             [
                 'objectAction' => 'segmentRebuild',
                 'label'        => 'mautic.crontester.rebuild.segment',
-                'icon'         => 'fa fa-refresh',
+                'icon'         => 'ri-refresh-line',
                 'context'      => 'segment',
             ],
             [
                 'objectAction' => 'campaignRebuild',
                 'label'        => 'mautic.crontester.rebuild.campaign',
-                'icon'         => 'fa fa-refresh',
+                'icon'         => 'ri-refresh-line',
                 'context'      => 'campaign',
             ],
             [
                 'objectAction' => 'campaignTrigger',
                 'label'        => 'mautic.crontester.trigger.campaign',
-                'icon'         => 'fa fa-play',
+                'icon'         => 'ri-play-line',
                 'context'      => 'campaign',
             ],
         ];
