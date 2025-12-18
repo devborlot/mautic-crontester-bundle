@@ -5,8 +5,8 @@ declare(strict_types=1);
 return [
     'name'        => 'Cron Tester',
     'description' => 'Test cron jobs directly from Mautic UI - rebuild segments and trigger campaigns manually',
-    'author'      => 'mtcextendee.com (Migrated to M5)',
-    'version'     => '5.0.0',
+    'author'      => 'mtcextendee.com (Migrated to M6)',
+    'version'     => '6.0.0',
 
     'routes' => [
         'main' => [
